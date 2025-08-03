@@ -1,0 +1,60 @@
+<QuizScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 20
+        spacing: 20  # aumentei o espaço entre os elementos
+
+        canvas.before:
+            Color:
+                rgba: 1, 1, 1, 1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: 'imagens/juanjo_jaramillo.jpg'  # plano de fundo
+
+        # Caixa com a pergunta
+        BoxLayout:
+            size_hint_y: 0.35
+            padding: 10
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 0.8  # fundo branco semi-transparente
+                RoundedRectangle:
+                    pos: self.pos
+                    size: self.size
+                    radius: [15]
+
+            Label:
+                id: pergunta
+                text: root.pergunta
+                font_size: 24
+                halign: "center"
+                valign: "middle"
+                text_size: self.size
+                color: 0, 0, 0, 1  # texto preto para contrastar com fundo branco
+
+        # Botões mais para baixo
+        BoxLayout:
+            id: botoes
+            orientation: 'vertical'
+            spacing: 10
+            size_hint_y: 0.45
+            padding: [20, 0]
+
+            Button:
+                text: root.alternativas[0] if len(root.alternativas) > 0 else ""
+                on_release: root.responder(self.text)
+            Button:
+                text: root.alternativas[1] if len(root.alternativas) > 1 else ""
+                on_release: root.responder(self.text)
+            Button:
+                text: root.alternativas[2] if len(root.alternativas) > 2 else ""
+                on_release: root.responder(self.text)
+
+        # Resultado da resposta
+        Label:
+            id: resultado
+            text: ""
+            font_size: 20
+            color: 1, 1, 0, 1
+            size_hint_y: 0.2

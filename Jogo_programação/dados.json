@@ -1,0 +1,196 @@
+[
+  {
+    "pergunta": "O que é uma variável em programação?",
+    "alternativas": ["Um tipo de comida", "Um personagem de desenho", "Um lugar para guardar informações"],
+    "correta": "Um lugar para guardar informações"
+  },
+  {
+    "pergunta": "Qual tipo de dado usamos para guardar números inteiros, como 5 ou 10?",
+    "alternativas": ["String", "Inteiro", "Booleano"],
+    "correta": "Inteiro"
+  },
+  {
+    "pergunta": "Qual tipo de dado usamos para guardar palavras ou nomes?",
+    "alternativas": ["Número real", "String", "If"],
+    "correta": "String"
+  },
+  {
+    "pergunta": "Se queremos saber o nome do usuário, qual comando usamos para pegar a resposta no teclado?",
+    "alternativas": ["print()", "if","input()"],
+    "correta": "input()"
+  },
+  {
+    "pergunta": "Qual comando usamos para mostrar uma mensagem na tela para o usuário?",
+    "alternativas": ["print()","input()", "else"],
+    "correta": "print()"
+  },
+  {
+    "pergunta": "O que o código abaixo faz?\n\nif idade >= 18:\n    print('Pode votar')\nelse:\n    print('Não pode votar')",
+    "alternativas": ["Diz se pode votar ou não","Pergunta a idade","Mostra um número"],
+    "correta": "Diz se pode votar ou não"
+  },
+  {
+    "pergunta": "Qual estrutura usamos para tomar decisões no código, por exemplo, fazer algo se uma condição for verdadeira?",
+    "alternativas": ["if", "for", "while"],
+    "correta": "if"
+  },
+  {
+    "pergunta": "No código abaixo, o que significa o 'elif'?\n\nif x > 10:\n    print('Maior que 10')\nelif x == 10:\n    print('Igual a 10')\nelse:\n    print('Menor que 10')",
+    "alternativas": ["Outra condição para testar", "Um erro", "Um comando para parar o programa"],
+    "correta": "Outra condição para testar"
+  },
+  {
+    "pergunta": "Qual valor será armazenado na variável 'idade' após este código?\n\nidade = input('Qual sua idade? ')\nidade = int(idade)",
+    "alternativas": ["Uma palavra", "Um número inteiro", "Um número real"],
+    "correta": "Um número inteiro"
+  },
+  {
+    "pergunta": "Para guardar um número com casas decimais, como 3.14, usamos qual tipo de variável?",
+    "alternativas": ["String", "Inteiro", "Real (float)"],
+    "correta": "Real (float)"
+  },
+  {
+    "pergunta": "O que acontece quando usamos o comando input() em Python?",
+    "alternativas": ["Mostra uma imagem", "Faz o computador desligar", "Espera o usuário digitar alguma coisa"],
+    "correta": "Espera o usuário digitar alguma coisa"
+  },
+  {
+    "pergunta": "O que essa linha de código faz?\n\nnome = input('Qual é o seu nome? ')",
+    "alternativas": ["Cria um número", "Guarda o nome que o usuário digitar", "Apaga o nome do usuário"],
+    "correta": "Guarda o nome que o usuário digitar"
+  },
+  {
+    "pergunta": "Qual dessas opções é uma variável válida em Python?",
+    "alternativas": ["2nome", "meu_nome", "print"],
+    "correta": "meu_nome"
+  },
+  {
+    "pergunta": "Qual dessas opções representa um número real (com vírgula)?",
+    "alternativas": ["10", "10.5", "'10'"],
+    "correta": "10.5"
+  },
+  {
+    "pergunta": "Para comparar dois valores em Python, usamos qual símbolo?",
+    "alternativas": ["=", "==", "!="],
+    "correta": "=="
+  },
+  {
+    "pergunta": "O que significa o símbolo != em uma condição?",
+    "alternativas": ["Maior ou igual", "Menor", "Diferente"],
+    "correta": "Diferente"
+  },
+  {
+    "pergunta": "Em qual situação usamos o else no Python?",
+    "alternativas": ["Quando a condição do if for verdadeira", "Quando o programa começa", "Quando a condição do if for falsa"],
+    "correta": "Quando a condição do if for falsa"
+  },
+  {
+    "pergunta": "O que acontece com esse código?\n\nif nome == 'Ana':\n    print('Olá, Ana!')",
+    "alternativas": ["Mostra Olá, Ana! se o nome for Ana", "Sempre mostra Olá, Ana!", "Dá erro"],
+    "correta": "Mostra Olá, Ana! se o nome for Ana"
+  },
+  {
+    "pergunta": "Se queremos guardar a idade digitada e depois verificar se é maior que 12, qual desses códigos está certo?",
+    "alternativas": [
+      "idade = input('Idade?')\nif idade > 12:",
+      "idade = int(input('Idade?'))\nif idade > 12:",
+      "idade = '12'\nif idade = 12:"
+    ],
+    "correta": "idade = int(input('Idade?'))\nif idade > 12:"
+  },
+  {
+    "pergunta": "Se colocarmos print('Olá!') dentro de um if, o que precisa acontecer para a mensagem aparecer?",
+    "alternativas": ["Nada, sempre aparece", "A condição do if precisa ser verdadeira", "O computador precisa estar carregado"],
+    "correta": "A condição do if precisa ser verdadeira"
+  },
+  {
+    "pergunta": "O que essa linha faz?\n\nnumero = int(input('Digite um número: '))",
+    "alternativas": [
+      "Pede um número e guarda como texto",
+      "Pede um número e guarda como número inteiro",
+      "Mostra um número aleatório"
+    ],
+    "correta": "Pede um número e guarda como número inteiro"
+  },
+  {
+    "pergunta": "O que o código abaixo faz?\n\nnome = 'Lucas'\nprint(nome)",
+    "alternativas": [
+      "Imprime Lucas na tela",
+      "Pede o nome do usuário",
+      "Guarda um número"
+    ],
+    "correta": "Imprime Lucas na tela"
+  },
+  {
+    "pergunta": "O que o código faz?\n\nidade = 15\nif idade >= 10:\n    print('Maior ou igual a 10')",
+    "alternativas": [
+      "Dá erro",
+      "Mostra 'Maior ou igual a 10'",
+      "Mostra 15"
+    ],
+    "correta": "Mostra 'Maior ou igual a 10'"
+  },
+  {
+    "pergunta": "O que essa linha faz?\n\naltura = float(input('Digite sua altura: '))",
+    "alternativas": [
+      "Pede uma altura e guarda como número com vírgula",
+      "Mostra a altura na tela",
+      "Soma a altura com outra"
+    ],
+    "correta": "Pede uma altura e guarda como número com vírgula"
+  },
+  {
+    "pergunta": "O que o código abaixo faz?\n\nx = 5\ny = 3\nprint(x + y)",
+    "alternativas": [
+      "Mostra 8 na tela",
+      "Mostra 'x + y'",
+      "Mostra 2 na tela"
+    ],
+    "correta": "Mostra 8 na tela"
+  },
+  {
+    "pergunta": "O que acontece aqui?\n\nif 10 > 5:\n    print('Dez é maior que cinco')",
+    "alternativas": [
+      "Mostra a mensagem",
+      "Dá erro",
+      "Nada acontece"
+    ],
+    "correta": "Mostra a mensagem"
+  },
+  {
+    "pergunta": "O que o código faz?\n\nnota = 7\nif nota >= 6:\n    print('Aprovado')\nelse:\n    print('Reprovado')",
+    "alternativas": [
+      "Mostra 'Aprovado'",
+      "Mostra 'Reprovado'",
+      "Mostra 7"
+    ],
+    "correta": "Mostra 'Aprovado'"
+  },
+  {
+    "pergunta": "O que significa essa linha?\n\nmensagem = input('Escreva algo: ')",
+    "alternativas": [
+      "Cria uma mensagem de erro",
+      "Espera o usuário digitar algo e guarda na variável",
+      "Envia uma mensagem para o celular"
+    ],
+    "correta": "Espera o usuário digitar algo e guarda na variável"
+  },
+  {
+    "pergunta": "O que o código faz?\n\nvalor = 10\nvalor = valor + 5\nprint(valor)",
+    "alternativas": [
+      "Mostra 15",
+      "Mostra 10",
+      "Mostra valor + 5"
+    ],
+    "correta": "Mostra 15"
+  },
+  {
+    "pergunta": "O que o código abaixo faz?\n\nx = 3.5\ntipo = type(x)\nprint(tipo)",
+    "alternativas": [
+      "Mostra que x é um número com vírgula",
+      "Mostra o valor de x",
+      "Mostra uma string"
+    ],
+    "correta": "Mostra que x é um número com vírgula"
+  }
+]
